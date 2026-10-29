@@ -1,0 +1,14 @@
+# Codex Migration
+
+> Experimental local macOS Apple Silicon Codex migration helper. Not official OpenAI import; no ChatGPT cross-account history import.
+
+- [Overview and download](README.md)
+- [Agent user workflow](docs/AGENT_GUIDE.md)
+- [Skill instructions](skill/codex-migration/SKILL.md)
+- [Internal operations](skill/codex-migration/references/operations.md)
+- [Developer instructions](AGENTS.md)
+- [Development checks](CONTRIBUTING.md)
+- [Actual validation and limits](docs/validation-v0.1.0.json)
+- [Security and private data](SECURITY.md)
+
+Use the release's bundled runtime; copying only SKILL.md is insufficient. Never request passwords in chat, modify live profiles for testing, bypass compatibility checks or publish user migration data.

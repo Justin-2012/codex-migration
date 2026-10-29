@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 迁移接力"
+  short_description: "三步迁移 Mac 上的 Codex 聊天、项目与自定义 Skill，先备份再恢复并验收"
+  default_prompt: "使用 $codex-migration 帮我准备换电脑的迁移包，并保留新电脑现有数据。"
