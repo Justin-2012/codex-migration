@@ -9,7 +9,7 @@
 ## 安装与最短调用路径
 
 1. 确认用户使用 macOS Apple Silicon，且本机已有 Codex 客户端。读取 README 的当前边界。
-2. 从 [Releases](https://github.com/Justin-2012/codex-migration/releases/latest) 下载 macOS arm64 **发行包**及 SHA256SUMS。核对下载文件哈希，解压后再核对包内工具清单。不要运行私有备份里来源不明的程序，不要把 GitHub 源码压缩包当成运行环境。
+2. 从 [Releases](https://github.com/Justin-2012/codex-migration/releases/tag/v0.1.0) 下载 macOS arm64 **发行包**及 SHA256SUMS。核对下载文件哈希，解压后再核对包内工具清单。不要运行私有备份里来源不明的程序，不要把 GitHub 源码压缩包当成运行环境。
 3. 帮用户运行发行包中的 `安装迁移Skill.command`；安装器会校验文件并保留已有改造版。若系统阻止未公证程序，说明当前预览版的限制并停止，不关闭 Gatekeeper。
 4. 读取实际安装目录中的 `SKILL.md`；默认在 `~/.codex/skills/codex-migration`，已配置 CODEX_HOME 时遵循原配置。直接使用该目录下 `_runtime/codex-migration`，不需要 Python 或 Homebrew。
 

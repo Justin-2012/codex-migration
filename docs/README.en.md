@@ -6,7 +6,7 @@ A community-maintained, local Mac-to-Mac migration helper for Codex chats, proje
 
 ## Three steps
 
-1. On the old Mac, download the [arm64 release](https://github.com/Justin-2012/codex-migration/releases/latest), extract it and open `安装迁移Skill.command` to install the skill. Tell Codex: `Use $codex-migration; I am moving to a new computer.` Select projects and output location, set a password privately, then quit the client when the independent helper asks.
+1. On the old Mac, download the [arm64 release](https://github.com/Justin-2012/codex-migration/releases/tag/v0.1.0), extract it and open `安装迁移Skill.command` to install the skill. Tell Codex: `Use $codex-migration; I am moving to a new computer.` Select projects and output location, set a password privately, then quit the client when the independent helper asks.
 2. Transfer the **entire generated migration folder** to the new Mac. Double-click `开始恢复.command`, enter your password, approve the restore summary and quit the client as prompted. The new Mac needs Codex installed, but not Python/Homebrew or a separate tool installation.
 3. Open Codex, check the sidebar and an old chat, then review the result report. Unresolved items remain explicit. The old Mac is not cleaned up.
 
