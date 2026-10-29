@@ -66,7 +66,7 @@ def main():
             files.append({"path": str(p.relative_to(release)), "sha256": hashlib.sha256(p.read_bytes()).hexdigest()})
     (release / "tool-checksums.json").write_text(json.dumps({"version": "0.1.0", "architecture": "arm64", "files": files}, indent=2) + "\n")
     (release / "工具校验.sha256").write_text("\n".join(hashlib.sha256(p.read_bytes()).hexdigest() + "  " + str(p.relative_to(release)) for p in included) + "\n")
-    zipfile = out / "Codex迁移接力-v0.1.0-macOS-arm64.zip"
+    zipfile = out / "codex-migration-v0.1.0-macos-arm64.zip"
     zipfile.unlink(missing_ok=True)
     subprocess.run(["/usr/bin/ditto", "-c", "-k", "--sequesterRsrc", "--keepParent", str(release), str(zipfile)], check=True)
     print(zipfile)

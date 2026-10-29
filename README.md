@@ -10,7 +10,7 @@
 
 ## 安装一次
 
-从 [Releases](https://github.com/Justin-2012/codex-migration/releases/tag/v0.1.0) 下载 `Codex迁移接力-v0.1.0-macOS-arm64.zip`，完整解压到本机，再双击“安装迁移Skill.command”。之后在 Codex 中说：**使用 $codex-migration，我要换电脑。** 新机只需已有 Codex；迁移包自带恢复助手。
+从 [Releases](https://github.com/Justin-2012/codex-migration/releases/tag/v0.1.0) 下载 `codex-migration-v0.1.0-macos-arm64.zip`，完整解压到本机，再双击“安装迁移Skill.command”。之后在 Codex 中说：**使用 $codex-migration，我要换电脑。** 新机只需已有 Codex；迁移包自带恢复助手。
 
 下载页面同时提供 `SHA256SUMS`，可交给 Agent 校验压缩包；安装入口还会检查解压后的工具文件完整性。若 macOS 提示无法验证开发者，先停止安装并检查来源；当前预览版不要求关闭 Gatekeeper 或移除隔离标记。GitHub 自动生成的 Source code 压缩包是源码，不能代替自带运行环境的安装包。
 
