@@ -40,6 +40,7 @@ def main():
     shutil.copytree(ROOT / "docs", release / "docs")
     licenses = release / "licenses"
     licenses.mkdir()
+    shutil.copytree(ROOT / "licenses", licenses, dirs_exist_ok=True)
     python_license = Path(sys.base_prefix) / ("lib/python" + str(sys.version_info.major) + "." + str(sys.version_info.minor)) / "LICENSE.txt"
     if not python_license.is_file():
         raise SystemExit("Python license is required for redistribution")
